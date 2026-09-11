@@ -218,3 +218,32 @@ h1 {
   .nav-links.open { display: flex; width: 100%; }
   .nav { flex-wrap: wrap; }
 }
+
+/* Article media */
+.article .hero-img {
+  margin: 8px 0 28px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+.article .hero-img img { width: 100%; height: auto; }
+.article figure {
+  margin: 28px 0;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+.article figure img { width: 100%; height: auto; }
+.article figcaption {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+  padding: 12px 14px 14px;
+}
+.article .lede-graf {
+  font-size: 19px;
+  color: var(--cream);
+  line-height: 1.5;
+}
