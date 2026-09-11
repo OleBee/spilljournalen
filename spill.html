@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spill — Spilljournalen</title>
+  <meta name="description" content="Spilljournalen — moderne norsk nettsted om Nintendo-spill, nyheter og anbefalinger.">
+  <meta name="theme-color" content="#070b14">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+  
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span> Spilljournalen</a>
+    <nav class="nav-links" aria-label="Hovedmeny">
+      <a href="index.html" class="">Forside</a>
+      <a href="spill.html" class="active">Spill</a>
+      <a href="nyheter.html" class="">Nyheter</a>
+      <a href="om.html" class="">Om oss</a>
+    </nav>
+    <a class="btn btn-primary" href="spill.html">Utforsk spill</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="page-hero">
+    <div class="kicker"><i></i> Katalog</div>
+    <h1>Nintendo-spill vi bryr oss om</h1>
+    <p class="lede">Et utvalg — ikke en komplett database. Filtrer etter plattform og sjanger.</p>
+  </div>
+  
+  <div class="filters" role="toolbar" aria-label="Filtrer spill">
+    <button type="button" class="active" data-filter="alle">Alle</button>
+    <button type="button" data-filter="switch">Switch</button>
+    <button type="button" data-filter="eventyr">Eventyr</button>
+    <button type="button" data-filter="plattform">Plattform</button>
+    <button type="button" data-filter="racing">Racing</button>
+    <button type="button" data-filter="strategi">Strategi</button>
+    <button type="button" data-filter="rpg">RPG</button>
+    <button type="button" data-filter="kos">Kos</button>
+    <button type="button" data-filter="action">Action</button>
+  </div>
+  <div class="grid" style="padding-bottom:48px">
+    <article class="card" data-tags="switch eventyr">
+      <div class="cover" style="--c:linear-gradient(135deg,#1a3a5c,#0b1220)"><span class="badge">2023</span></div>
+      <div class="card-body"><h3>The Legend of Zelda: Tears of the Kingdom</h3><p class="meta">Switch · Eventyr</p><p>Et åpent Hyrule med bygging, grotter og himmeløyer.</p></div>
+    </article>
+    <article class="card" data-tags="switch plattform">
+      <div class="cover" style="--c:linear-gradient(135deg,#8b1e2d,#0b1220)"><span class="badge">2017</span></div>
+      <div class="card-body"><h3>Super Mario Odyssey</h3><p class="meta">Switch · Plattform</p><p>Hattkast, riker og ren Mario-glede.</p></div>
+    </article>
+    <article class="card" data-tags="switch action">
+      <div class="cover" style="--c:linear-gradient(135deg,#243018,#0b1220)"><span class="badge">2021</span></div>
+      <div class="card-body"><h3>Metroid Dread</h3><p class="meta">Switch · Action</p><p>Spenning i korridorene — Samus på sitt skarpeste.</p></div>
+    </article>
+    <article class="card" data-tags="switch kos">
+      <div class="cover" style="--c:linear-gradient(135deg,#1f4d3a,#0b1220)"><span class="badge">2020</span></div>
+      <div class="card-body"><h3>Animal Crossing: New Horizons</h3><p class="meta">Switch · Livssim</p><p>Øy-liv, venner og rolige kvelder.</p></div>
+    </article>
+    <article class="card" data-tags="switch racing">
+      <div class="cover" style="--c:linear-gradient(135deg,#3a2060,#0b1220)"><span class="badge">2017</span></div>
+      <div class="card-body"><h3>Mario Kart 8 Deluxe</h3><p class="meta">Switch · Racing</p><p>Den definitive kartfesten — fortsatt konge.</p></div>
+    </article>
+    <article class="card" data-tags="switch strategi">
+      <div class="cover" style="--c:linear-gradient(135deg,#4a2030,#0b1220)"><span class="badge">2019</span></div>
+      <div class="card-body"><h3>Fire Emblem: Three Houses</h3><p class="meta">Switch · Strategi</p><p>Akademi, allianser og vanskelige valg.</p></div>
+    </article>
+    <article class="card" data-tags="switch strategi">
+      <div class="cover" style="--c:linear-gradient(135deg,#3d4a18,#0b1220)"><span class="badge">2023</span></div>
+      <div class="card-body"><h3>Pikmin 4</h3><p class="meta">Switch · Strategi</p><p>Små helter, store oppdrag.</p></div>
+    </article>
+    <article class="card" data-tags="switch plattform">
+      <div class="cover" style="--c:linear-gradient(135deg,#6b2a4a,#0b1220)"><span class="badge">2023</span></div>
+      <div class="card-body"><h3>Super Mario Bros. Wonder</h3><p class="meta">Switch · Plattform</p><p>Wonder-effekter og kreativ 2D-magi.</p></div>
+    </article>
+    <article class="card" data-tags="switch rpg">
+      <div class="cover" style="--c:linear-gradient(135deg,#204060,#0b1220)"><span class="badge">2022</span></div>
+      <div class="card-body"><h3>Pokémon Legends: Arceus</h3><p class="meta">Switch · RPG</p><p>Åpen Hisui og en ny måte å fange på.</p></div>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <strong style="color:#fff">Spilljournalen</strong><br>
+      Norsk nettsted om Nintendo-spill.
+    </div>
+    <div>
+      Uoffisiell fanside. Ikke tilknyttet Nintendo Co., Ltd. eller dets partnere.<br>
+      Spillnavn tilhører sine rettighetshavere.
+    </div>
+  </div>
+</footer>
+<script src="js/site.js"></script>
+</body>
+</html>
